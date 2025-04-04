@@ -7,7 +7,7 @@
 // merged: a p b q c r
 // Using string builder lets you save a ton of memory of is much faster because it is mutable
  */
-class mergeStringsAlternately {
+class MergeStringsAlternately {
     public String mergeAlternately(String word1, String word2) {
         StringBuilder s = new StringBuilder();
         for (int i = 0; i < Math.max(word1.length(), word2.length()); i++) { 
